@@ -1,0 +1,65 @@
+<web-app>
+	<servlet>
+		<servlet-name>student</servlet-name>
+		<servlet-class>pack.student</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>student</servlet-name>
+		<url-pattern>/student</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>new_usr</servlet-name>
+		<servlet-class>pack.new_usr</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>new_usr</servlet-name>
+		<url-pattern>/new_usr</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>fpass</servlet-name>
+		<servlet-class>pack.fpass</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>fpass</servlet-name>
+		<url-pattern>/fpass</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>new_pass</servlet-name>
+		<servlet-class>pack.new_pass</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>new_pass</servlet-name>
+		<url-pattern>/new_pass</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<context-param>
+		<param-name>sql_pass</param-name>
+		<param-value>root</param-value>
+	</context-param>	
+	
+	<context-param>
+		<param-name>sql_database</param-name>
+		<param-value>rhythm</param-value>
+	</context-param>	
+	
+	
+	
+	
+	
+</web-app>	
