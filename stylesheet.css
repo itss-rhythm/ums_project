@@ -1,0 +1,93 @@
+a {
+  text-decoration: none;
+  color: white;
+  font-size:50px;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: 110px;
+    left: 500px;
+    font-weight: bold;
+    
+}
+
+a.anchor1 {
+    display: block;
+    position: relative;
+    top: 135px;
+    left: 500px;
+    font-weight: bold;
+}
+
+a.anchor2 {
+    display: block; 
+    position: relative; 
+    top: 400px; 
+    left: 10px;
+    font-weight: bold; 
+} 
+
+a.anchor3 { 
+	height: 60;
+	width: 100;
+    display: block; 
+    position: relative; 
+    top: 340px; 
+    left: 1180px;
+    font-weight: bold; 
+}
+
+
+
+.anchor {
+    display: block;
+    position: relative;
+    top: 110px;
+    left: 500px;
+    font-weight: bold;
+	color: white;
+	font-size: 50px;
+	color:white;
+    
+}
+.submit{
+	display: block;
+    position: relative;
+    top: 150px;
+    left: 500px;
+    font-weight: bold;
+	color: white;
+	
+}
+
+.anchor1 {
+    display: block;
+    position: relative;
+    top: 135px;
+    left: 500px;
+    font-weight: bold;
+	color: white;
+}
+
+.anchor2 {
+    display: block; 
+    position: relative; 
+    top: 400px; 
+    left: 10px;
+    font-weight: bold; 
+} 
+
+.anchor3 { 
+    display: block; 
+    position: relative; 
+    top: 340px; 
+    left: 1180px;
+    font-weight: bold; 
+}
+

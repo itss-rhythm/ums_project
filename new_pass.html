@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<style>
+  span {
+      position: absolute;
+      left : 350px;
+      font-size:95px;
+      color: white;
+  }
+</style>
+
+</head>
+
+<body>
+
+<div style="background-color: #3BB9FF" border-radius:100px; border: #3BB9FF;>
+	<img src="ymca_logo.png" width = "200" height="200" alt="J.C. Bose University of Science and 		Technology, YMCA">
+        <span> J.C. Bose University of Science and Technology </span>
+</div>
+
+<style>
+    body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1nPFasRgAu0hTQTR1bk3gBA4NnWL5xfXqovCd79Xjs-H3dM1u8Q");
+       	background-repeat:no-repeat;
+       	background-size:cover;
+    } 
+
+</style>
+<form method="post" action="new_pass" name="f1" onsubmit="sub()">
+	
+	<div class="anchor">New Password:<input type="password" name="npass" onkeyup="sn(this.value)"><br>
+	Confirm Password:<input type="password" name="cpass" onkeyup="cn(this.value)" background="red"><br>
+	<input type="submit" value="RESET PASS" ><br>
+	
+</form>
+
+<script language="JavaScript">
+
+var a,n,c;
+
+function sn(a)
+{
+   n=a;
+}
+function cn(a)
+{
+	c=a;
+	
+}
+function sub()
+{
+	if(n=null)
+	{alert("Enter the password first!!!!");}
+	if(c=null)
+	{alert("Enter the password first!!!!");}
+	if(document.f1.npass.value !=document.f1.cpass.value)
+	{
+		alert("PASSWORDS DO NOT MATCH");
+		
+	}
+}
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+<!1.https://upload.wikimedia.org/wikipedia/en/a/ae/J.C._Bose_University_of_Science_and_Technology%2C_YMCA_logo.png 2.https://i.ibb.co/bBGRF4q/Whats-App-Image-2019-08-26-at-22-18-27.jpg>
